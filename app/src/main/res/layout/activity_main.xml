@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="@dimen/padding_distance"
+    android:paddingVertical="@dimen/padding_distance"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/refresh"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:onClick="refresh"
+        app:srcCompat="@drawable/ic_baseline_refresh_24"
+        />
+    <com.example.slidingpuzzle.GestureDetectGridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:layout_below="@+id/refresh"
+        android:rotationX="180"
+        android:rotationY="180"
+        android:background="@drawable/tile">
+    </com.example.slidingpuzzle.GestureDetectGridView>
+
+</RelativeLayout>

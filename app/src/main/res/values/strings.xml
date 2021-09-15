@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sliding Puzzle</string>
+    <string-array name="list_name">
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight1</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+        <item>hollowknight_res</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
